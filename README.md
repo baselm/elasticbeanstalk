@@ -58,19 +58,19 @@ Congratulations, you have successfully deployed an application on Elastic Beanst
 
 
 
-14. Back in the Elastic Beanstalk console, choose **Configuration** in the left pane.
+8. Back in the Elastic Beanstalk console, choose **Configuration** in the left pane.
 
     Notice the details here.
 
     For example, in the **Instances** row, it indicates the Monitoring interval, EC2 Security groups, and Root volume type details of the Amazon Elastic Compute Cloud (Amazon EC2) instances that are hosting your web application.
 
-15. Scroll to the bottom of the page to the **Database** row.
+9. Scroll to the bottom of the page to the **Database** row.
 
     The **Database** row does not have any details, because the environment does not include a database.
-15. In the **Database** row, choose **Edit**.
+10. In the **Database** row, choose **Edit**.
 
     Note that you could easily add a database to this environment if you wanted to: you only need to set a few basic configurations and choose **Apply**. (However, for the purposes of this activity, you do not need to add a database.)
-17. In the left panel, choose **Monitoring**.
+11. In the left panel, choose **Monitoring**.
 
     Browse through the charts to see the kinds of information that are available to you.
 
@@ -78,17 +78,17 @@ Congratulations, you have successfully deployed an application on Elastic Beanst
 &nbsp;
 ## Task 4: Explore the AWS resources that support your application
 
-18. From the **Services** menu, choose **EC2**
+12. From the **Services** menu, choose **EC2**
 
     
 
-19. Choose **Instances**.
+13. Choose **Instances**.
 
     Note that two instances that support your web application are running (they both contain *samp* in their names). 
 
     
 
-20. If you want to continue exploring the Amazon EC2 service resources that were created by Elastic Beanstalk, feel free to explore them. You will find:
+14. If you want to continue exploring the Amazon EC2 service resources that were created by Elastic Beanstalk, feel free to explore them. You will find:
 
     - A *security group* with port 80 open
     - A *load balancer* that both instances belong to
@@ -102,18 +102,18 @@ Congratulations, you have successfully deployed an application on Elastic Beanst
 
 ## Task 5: Clean up
 
-1. Delete all application versions.
+15. Delete all application versions.
  1. Open the Elastic Beanstalk console, and in the Regions list, select your AWS Region.
  2. In the navigation pane, choose **Applications**, and then choose ** getting-started-app**.
  3. In the navigation pane, find your application's name and choose Application versions.
  4. On the Application versions page, select all application versions that you want to delete.
  5. Choose Actions, and then choose Delete.
  6. Choose Delete, and then choose Done.
-2. Terminate the environment.
+16. Terminate the environment.
   1. In the navigation pane, choose getting-started-app, and then choose GettingStartedApp-env in the environment list.
  2. Choose Environment actions, and then choose Terminate Environment.
  3. Confirm that you want to terminate GettingStartedApp-env by typing the environment name, and then choose Terminate.
  4. Delete the getting-started-app application.
-3. In the navigation pane, choose the getting-started-app.
+17. In the navigation pane, choose the getting-started-app.
  1. Choose Actions, and then choose Delete application.
  2. Confirm that you want to delete getting-started-app by typing the application name, and then choose Delete.
