@@ -103,17 +103,17 @@ Congratulations, you have successfully deployed an application on Elastic Beanst
 ## Task 5: Clean up
 
 15. Delete all application versions.
-  1. Open the Elastic Beanstalk console, and in the Regions list, select your AWS Region.
-  2. In the navigation pane, choose **Applications**, and then choose ** getting-started-app**.
-  3. In the navigation pane, find your application's name and choose Application versions.
-  4. On the Application versions page, select all application versions that you want to delete.
-  5. Choose Actions, and then choose Delete.
-  6. Choose Delete, and then choose Done.
+     1. Open the Elastic Beanstalk console, and in the Regions list, select your AWS Region.
+     2. In the navigation pane, choose **Applications**, and then choose ** getting-started-app**.
+     3. In the navigation pane, find your application's name and choose Application versions.
+    4. On the Application versions page, select all application versions that you want to delete.
+    5. Choose Actions, and then choose Delete.
+    6. Choose Delete, and then choose Done.
 16. Terminate the environment.
-  1. In the navigation pane, choose getting-started-app, and then choose GettingStartedApp-env in the environment list.
-  2. Choose Environment actions, and then choose Terminate Environment.
-  3. Confirm that you want to terminate GettingStartedApp-env by typing the environment name, and then choose Terminate.
-  4. Delete the getting-started-app application.
+    1. In the navigation pane, choose getting-started-app, and then choose GettingStartedApp-env in the environment list.
+    2. Choose Environment actions, and then choose Terminate Environment.
+    3. Confirm that you want to terminate GettingStartedApp-env by typing the environment name, and then choose Terminate.
+    4. Delete the getting-started-app application.
 17. In the navigation pane, choose the getting-started-app.
-  1. Choose Actions, and then choose Delete application.
-  2. Confirm that you want to delete getting-started-app by typing the application name, and then choose Delete.
+    1. Choose Actions, and then choose Delete application.
+    2. Confirm that you want to delete getting-started-app by typing the application name, and then choose Delete.
