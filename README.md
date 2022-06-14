@@ -19,7 +19,7 @@ This activity takes approximately **30 minutes** to complete.
 
 ## Accessing the AWS Management Console
 
-Access your AWS Management Console using a root account or IAM admin user. 
+Access your AWS Management Console using a root account or IAM admin user account. 
 
 ## Task 1: Access the Elastic Beanstalk environment
 ##### Open the Elastic Beanstalk console using this link: [Elastic Beanstalk console](https://console.aws.amazon.com/elasticbeanstalk/home#/gettingStarted?applicationName=getting-started-app "Elastic Beanstalk console")
