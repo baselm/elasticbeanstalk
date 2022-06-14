@@ -8,7 +8,7 @@
 
 ## Overview
 
-This activity provides you with an Amazon Web Services (AWS) account where an AWS Elastic Beanstalk environment has been pre-created for you. You will deploy code to it and observe the AWS resources that make up the Elastic Beanstalk environment.
+This activity provides you with a step by step instructions to deploy a sample application in AWS Elastic Beanstalk environment. You will deploy code to it and observe the AWS resources that make up the Elastic Beanstalk environment.
 
 ## Duration
 
